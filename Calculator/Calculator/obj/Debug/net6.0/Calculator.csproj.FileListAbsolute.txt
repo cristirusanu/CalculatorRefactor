@@ -13,3 +13,6 @@ C:\Workspace\Projects\CalculatorRefactor\Calculator\Calculator\obj\Debug\net6.0\
 C:\Workspace\Projects\CalculatorRefactor\Calculator\Calculator\obj\Debug\net6.0\Calculator.pdb
 C:\Workspace\Projects\CalculatorRefactor\Calculator\Calculator\obj\Debug\net6.0\Calculator.genruntimeconfig.cache
 C:\Workspace\Projects\CalculatorRefactor\Calculator\Calculator\obj\Debug\net6.0\ref\Calculator.dll
+C:\Workspace\Projects\CalculatorRefactor\Calculator\Calculator\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Workspace\Projects\CalculatorRefactor\Calculator\Calculator\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Workspace\Projects\CalculatorRefactor\Calculator\Calculator\obj\Debug\net6.0\Calculator.csproj.CopyComplete

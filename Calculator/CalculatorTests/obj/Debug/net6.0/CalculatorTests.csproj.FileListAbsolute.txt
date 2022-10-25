@@ -108,3 +108,5 @@ C:\Workspace\Projects\CalculatorRefactor\Calculator\CalculatorTests\obj\Debug\ne
 C:\Workspace\Projects\CalculatorRefactor\Calculator\CalculatorTests\obj\Debug\net6.0\CalculatorTests.pdb
 C:\Workspace\Projects\CalculatorRefactor\Calculator\CalculatorTests\obj\Debug\net6.0\CalculatorTests.genruntimeconfig.cache
 C:\Workspace\Projects\CalculatorRefactor\Calculator\CalculatorTests\obj\Debug\net6.0\ref\CalculatorTests.dll
+C:\Workspace\Projects\CalculatorRefactor\Calculator\CalculatorTests\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Workspace\Projects\CalculatorRefactor\Calculator\CalculatorTests\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll

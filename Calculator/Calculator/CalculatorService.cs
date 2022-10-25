@@ -14,32 +14,20 @@ namespace Calculator
 {
     public class CalculatorService : ICalculator
     {
+        ICustomerDiscountCalculatorFactory _customerDiscountCalculatorFactory;
+        public CalculatorService(ICustomerDiscountCalculatorFactory customerDiscountCalculatorFactory)
+        {
+            _customerDiscountCalculatorFactory = customerDiscountCalculatorFactory;
+        }
 
         public decimal Calculate(decimal amount, int type, int years)
         {
-            IDiscountCalculator discountCalculator = new RegisteredCustomerDiscountCalculator();
-            
-            switch (type)
-            {
-                case (int)CustomerType.Unregistred:
-                    discountCalculator = new UnregisterdCustomerDiscountCalculator();
-                    break;
-                case (int)CustomerType.Registered:
-                    discountCalculator = new RegisteredCustomerDiscountCalculator();
-                    break;
-                case (int)CustomerType.Valuable:
-                    discountCalculator = new ValuableCustomerDiscountCalculator();
-                    break;
-                case (int)CustomerType.MostValuable:
-                    discountCalculator = new MostValuableCustomerDiscountCalculator();
-                    break;
-            }
+            var discountCalculator = _customerDiscountCalculatorFactory.CreateDiscountCalculator((CustomerType)type);
 
             decimal discount = discountCalculator.CalculateDiscount(years);
             decimal multiplier = discountCalculator.CalculateMultiplier();
-            
+
             return multiplier * amount * (1 - discount);
-            
         }
     }
 }

@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "Z/xQPwYuq5P0j1Il8SOA/OySZHJuTbxU2ErZiGllSpCrTVfzgP9zzgVRiqD1y4cMVI2/rtF2X0zyui3SolFdzA==",
+  "dgSpecHash": "5+h2Vh0YsCaphZvowQATHTO0pyHv0LGUhrvQLaq4SkI30GvR8fH39KmcaEzcmJgjv0REsBlf0iwA3tPB7Ll+ow==",
   "success": true,
   "projectFilePath": "C:\\Workspace\\Projects\\CalculatorRefactor\\Calculator\\Calculator\\Calculator.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Cristian Rusanu\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.1\\microsoft.extensions.dependencyinjection.6.0.1.nupkg.sha512",
+    "C:\\Users\\Cristian Rusanu\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\Cristian Rusanu\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

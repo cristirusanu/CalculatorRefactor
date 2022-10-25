@@ -11,4 +11,8 @@
     <Compile Remove="class1-v2.cs" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="6.0.1" />
+  </ItemGroup>
+
 </Project>
