@@ -19,7 +19,7 @@ namespace CalculatorTests
             var years = 1;
 
             //act
-            CalculatorService service = new CalculatorService();
+            var service = new CalculatorService();
             var result = service.Calculate(amount, (int)type, years);
             
             //assert
@@ -41,7 +41,7 @@ namespace CalculatorTests
             var expectedResult = (decimal)multiplier * amount * (1 - (decimal)years / 100);
             
             //act
-            CalculatorService service = new CalculatorService();
+            var service = new CalculatorService();
             var result = service.Calculate(amount, (int)type, years);
 
             //assert
